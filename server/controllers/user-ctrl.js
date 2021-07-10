@@ -35,20 +35,20 @@ createUser = (req, res) => {
 
 
 
-/*getMovieById = async (req, res) => {
-    await Movie.findOne({ _id: req.params.id }, (err, movie) => {
+getUserById = async (req, res) => {
+    await User.findOne({ _id: req.params.id }, (err, user) => {
         if (err) {
             return res.status(400).json({ success: false, error: err })
         }
 
-        if (!movie) {
+        if (!user) {
             return res
                 .status(404)
-                .json({ success: false, error: `Movie not found` })
+                .json({ success: false, error: `User not found` })
         }
-        return res.status(200).json({ success: true, data: movie })
+        return res.status(200).json({ success: true, data: user })
     }).catch(err => console.log(err))
-}*/
+}
 
 getUsers = async (req, res) => {
     await User.find({}, (err, users) => {
@@ -66,5 +66,6 @@ getUsers = async (req, res) => {
 
 module.exports = {
     createUser,
-    getUsers
+    getUsers,
+    getUserById
 }
