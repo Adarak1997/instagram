@@ -1,5 +1,7 @@
-const mongoose = require('mongoose')
 
+
+const mongoose = require('mongoose')
+const {ObjectId} = mongoose.Schema.Types ;
 const userSchema = new mongoose.Schema({
     name:{
         type: String,
@@ -17,15 +19,15 @@ const userSchema = new mongoose.Schema({
         type:String,
         required:true
     },
-    followers:{
-        type: Array,
-        required: true
-    },
-    following: {
-        type: Array,
-        required: true
-    }
+    followers:[{
+        type: ObjectId,
+        ref:"users"
+    }],
+    following:[{
+        type: ObjectId,
+        ref:"users"
+    }]
 })
 
-const userModel = mongoose.model('user', userSchema)
-module.exports = userModel
+const User = mongoose.model('users', userSchema)
+module.exports = User
