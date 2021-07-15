@@ -20,29 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75fd54c-66fa-40f7-abcb-53a959059a2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/actions/authActions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/actions/types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/CreatePost.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/auth/Login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/auth/Register.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/dashboard/Dashboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/layout/Landing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/layout/Navbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/private-route/PrivateRoute.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/reducers/authReducers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/reducers/errorReducers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/reducers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/utils/setAuthToken.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client" beforeDir="false" afterPath="$PROJECT_DIR$/client" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/post-ctrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/post-ctrl.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/models/post-model.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/post-model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/api/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/api/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/post-router.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/post-router.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +37,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/client" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1v4PJwCrIqGnzJuxuS1adN1fDjy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -80,7 +64,7 @@
       <workItem from="1626076568223" duration="117000" />
       <workItem from="1626184335543" duration="3446000" />
       <workItem from="1626275565943" duration="1683000" />
-      <workItem from="1626277500230" duration="7193000" />
+      <workItem from="1626277500230" duration="22678000" />
     </task>
     <servers />
   </component>
@@ -100,14 +84,18 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="418" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1626365814477">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="418" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1626365814477" />
     <state x="973" y="184" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1625822035934">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="973" y="184" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1625822035934" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1626184835066">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1626358114540">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1626184835066" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1626358114540" />
     <state x="815" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1626280428931">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

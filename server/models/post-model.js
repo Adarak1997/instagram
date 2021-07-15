@@ -11,7 +11,7 @@ const postSchema = new mongoose.Schema({
         type:String,
         required:true
     },
-    photo:{
+    file:{
         type:String,
         required:false
     },
@@ -20,8 +20,8 @@ const postSchema = new mongoose.Schema({
         ref:"users"
     }],
     postedBy:{
-        type:ObjectId,
-        ref:"users"
+        type:String,
+        required: true
     }
 })
 

@@ -1,24 +1,7 @@
 const Post = require('../models/post-model')
 
 
-createPost = async (req, res) => {
-    const {title,content,pic} = req.body
-    if(!title || !content || !pic){
-        return  res.status(422).json({error:"Plase add all the fields"})
-    }
-    const post = new Post({
-        title,
-        content,
-        photo:pic,
-        postedBy:req.user
-    })
-    post.save().then(result=>{
-        res.json({post:result})
-    })
-        .catch(err=>{
-            console.log(err)
-        })
-};
+
 
 
 getPosts = async (req, res) => {
@@ -51,7 +34,6 @@ getPostById = async (req, res) => {
 }
 
 module.exports = {
-    createPost,
     getPosts,
     getPostById
 }
