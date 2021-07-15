@@ -34,14 +34,6 @@
       <change afterPath="$PROJECT_DIR$/client/src/reducers/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/src/store.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/src/utils/setAuthToken.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/config/keys.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/config/passport.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/controllers/post-ctrl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/models/post-model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/routes/api/users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/routes/post-router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/validation/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/validation/register.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client" beforeDir="false" afterPath="$PROJECT_DIR$/client" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
@@ -50,15 +42,7 @@
       <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/logo.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/client/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/controllers/user-ctrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/user-ctrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/db/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/models/user-model.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/user-model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/body-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/body-parser/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/cors/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/cors/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/user-router.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/user-router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/models/post-model.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/post-model.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +80,7 @@
       <workItem from="1626076568223" duration="117000" />
       <workItem from="1626184335543" duration="3446000" />
       <workItem from="1626275565943" duration="1683000" />
-      <workItem from="1626277500230" duration="4861000" />
+      <workItem from="1626277500230" duration="7193000" />
     </task>
     <servers />
   </component>
