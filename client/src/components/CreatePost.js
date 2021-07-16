@@ -6,6 +6,7 @@ import PropTypes from "prop-types";
 import {connect} from "react-redux";
 import {addPost} from "../actions/authActions";
 import jwtDecode from "jwt-decode";
+import Navbar from "./layout/Navbar";
 
 
 const CreatePost = () => {
@@ -44,23 +45,28 @@ const CreatePost = () => {
 
 
     return(
-        <div className="container">
-            <form onSubmit={changeOnClick} encType="multipart/form-data">
-                <div className="form-group">
-                    <label>Titre</label>
-                    <input type="text" value={title} onChange={(e) => setTitle(e.target.value)} className="form-control" />
-                </div>
-                <div className="form-group">
-                    <label>Content</label>
-                    <input type="text" value={content} onChange={(e) => setContent(e.target.value)} className="form-control" />
-                </div>
-                <div className="form-group">
-                    <label>File</label>
-                    <input type="file" name="file" onChange={onChangeFile} />
-                </div>
-            <button type="submit">Post</button>
-            </form>
-        </div>
+        <section>
+            <Navbar></Navbar>
+            <div className="container addPost">
+                <h1>Créer votre post</h1>
+                <form onSubmit={changeOnClick} encType="multipart/form-data">
+                    <div className="form-group">
+                        <label>Titre</label>
+                        <input type="text" value={title} onChange={(e) => setTitle(e.target.value)} className="form-control" />
+                    </div>
+                    <div className="form-group">
+                        <label>Content</label>
+                        <input type="text" value={content} onChange={(e) => setContent(e.target.value)} className="form-control" />
+                    </div>
+                    <div className="form-group">
+                        <label>File</label>
+                        <input type="file" name="file" onChange={onChangeFile} />
+                    </div>
+                    <button type="submit">Post</button>
+                </form>
+            </div>
+
+        </section>
     )
 }
 

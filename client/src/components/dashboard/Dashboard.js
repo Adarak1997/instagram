@@ -4,6 +4,7 @@ import { connect } from "react-redux";
 import { logoutUser } from "../../actions/authActions";
 import jwtDecode from "jwt-decode";
 import axios from "axios";
+import Navbar from "../layout/Navbar";
 class Dashboard extends Component {
 
     constructor() {
@@ -43,6 +44,7 @@ class Dashboard extends Component {
         const { user } = this.props.auth;
         return (
             <section>
+                <Navbar></Navbar>
                 <table className="table">
                     <thead>
                     <tr>
