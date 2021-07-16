@@ -1,0 +1,1 @@
+dossier stock image
