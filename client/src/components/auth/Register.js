@@ -55,15 +55,14 @@ class Register extends Component {
                 <div className="row">
                     <div className="col s8 offset-s2">
                         <Link to="/" className="btn-flat waves-effect">
-                            <i className="material-icons left">keyboard_backspace</i> Back to
-                            home
+                            <i className="material-icons left">keyboard_backspace</i> Retour à l'accueil
                         </Link>
                         <div className="col s12" style={{ paddingLeft: "11.250px" }}>
                             <h4>
-                                <b>Register</b> below
+                                <b>S'enregistrer</b>
                             </h4>
                             <p className="grey-text text-darken-1">
-                                Already have an account? <Link to="/login">Log in</Link>
+                                Déjà un compte? <Link to="/login">Se connecter</Link>
                             </p>
                         </div>
                         <form noValidate onSubmit={this.onSubmit}>
@@ -78,7 +77,7 @@ class Register extends Component {
                                         invalid: errors.firstname
                                     })}
                                 />
-                                <label htmlFor="name">Firstname</label>
+                                <label htmlFor="name">Prénom</label>
                                 <span className="red-text">{errors.firstname}</span>
                             </div>
                             <div className="input-field col s12">
@@ -92,7 +91,7 @@ class Register extends Component {
                                         invalid: errors.name
                                     })}
                                 />
-                                <label htmlFor="name">Name</label>
+                                <label htmlFor="name">Nom</label>
                                 <span className="red-text">{errors.name}</span>
                             </div>
                             <div className="input-field col s12">
@@ -120,7 +119,7 @@ class Register extends Component {
                                         invalid: errors.password
                                     })}
                                 />
-                                <label htmlFor="password">Password</label>
+                                <label htmlFor="password">Mot de passe</label>
                                 <span className="red-text">{errors.password}</span>
                             </div>
                             <div className="input-field col s12">
@@ -134,13 +133,13 @@ class Register extends Component {
                                         invalid: errors.password2
                                     })}
                                 />
-                                <label htmlFor="password2">Confirm Password</label>
+                                <label htmlFor="password2">Confirmation mot de passe</label>
                                 <span className="red-text">{errors.password2}</span>
                             </div>
                             <div className="col s12" style={{ paddingLeft: "11.250px" }}>
                                 <button
                                     style={{
-                                        width: "150px",
+                                        width: "170px",
                                         borderRadius: "3px",
                                         letterSpacing: "1.5px",
                                         marginTop: "1rem"
@@ -148,7 +147,7 @@ class Register extends Component {
                                     type="submit"
                                     className="btn btn-large waves-effect waves-light hoverable blue accent-3"
                                 >
-                                    Sign up
+                                    S'enregistrer
                                 </button>
                             </div>
                         </form>

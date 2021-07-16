@@ -21,12 +21,16 @@
   <component name="ChangeListManager">
     <list default="true" id="e75fd54c-66fa-40f7-abcb-53a959059a2c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/server/controllers/post-ctrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/post-ctrl.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/models/post-model.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/post-model.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/routes/api/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/api/users.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/routes/post-router.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/post-router.js" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/server/config/keys.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/config/keys.js" afterDir="false" />
+>>>>>>> 082ef8c3c392c974460033650cf20bff71c61248
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +54,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -64,7 +69,12 @@
       <workItem from="1626076568223" duration="117000" />
       <workItem from="1626184335543" duration="3446000" />
       <workItem from="1626275565943" duration="1683000" />
+<<<<<<< HEAD
       <workItem from="1626277500230" duration="22678000" />
+=======
+      <workItem from="1626277500230" duration="7193000" />
+      <workItem from="1626343359931" duration="3442000" />
+>>>>>>> 082ef8c3c392c974460033650cf20bff71c61248
     </task>
     <servers />
   </component>
