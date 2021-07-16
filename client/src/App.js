@@ -13,6 +13,7 @@ import { setCurrentUser, logoutUser } from "./actions/authActions";
 import Register from "./components/auth/Register";
 import Login from "./components/auth/Login";
 import CreatePost from "./components/CreatePost";
+import ViewPost from "./components/ViewPost";
 
 // Check for token to keep user logged in
 if (localStorage.jwtToken) {
@@ -45,6 +46,7 @@ function App() {
               <Switch>
                   <PrivateRoute exact path="/dashboard" component={Dashboard} />
                   <PrivateRoute exact path="/addPost" component={CreatePost} />
+                  <PrivateRoute exact path="/viewPost" component={ViewPost} />
               </Switch>
           </div>
       </Router>

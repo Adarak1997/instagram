@@ -24,7 +24,7 @@ class Navbar extends Component {
                         <Link to="/dashboard" className="nav-link">
                             Dashboard
                         </Link>
-                        <Link to="/dashboard" className="nav-link">
+                        <Link to="/viewPost" className="nav-link">
                             Fil d'actualité
                         </Link>
                         <Link to="/addPost" className="nav-link">
